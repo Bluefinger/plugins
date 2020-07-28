@@ -1,0 +1,16 @@
+{
+  "arrowParens": "always",
+  "printWidth": 100,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "plugins": ["prettier-plugin-package"],
+  "overrides": [
+    {
+      "files": "README.md",
+      "options": {
+        "arrowParens": "avoid",
+        "printWidth": 80
+      }
+    }
+  ]
+}
